@@ -13,7 +13,14 @@ new Vue({
                 { day: 'Viernes', value: 8460 },
                 { day: 'Sabado', value: 9250 },
                 { day: 'Domingo', value: 8420 }
-            ]
+            ],
+            showPrices: false
+        }
+    },
+
+    methods: {
+        mostrarPrecios(){
+            this.showPrices = !this.showPrices
         }
     }
 })
