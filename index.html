@@ -11,7 +11,7 @@
 
 </head>
     <body>
-        <div id="app">
+        <div id="app" v-bind:style="{background : '#' + color, color: '#' + fuente}">
 
             <div>
                 <img class="fila iconSize" v-bind:src="img" v-bind:alt="name">
@@ -20,7 +20,10 @@
 
             <div>
                 <button class="botonPrincipal" v-on:click="mostrarPrecios">{{showPrices ? 'Ocultar precios' : 'Mostrar precios'}}</button>
+                <button class="botonPrincipal" v-on:click="darkMode">{{dark ? 'DarkMode off' : 'DarkMode On'}}</button>
             </div>
+
+            
             
 
             <ul v-show="showPrices">

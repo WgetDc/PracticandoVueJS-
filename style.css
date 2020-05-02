@@ -6,7 +6,7 @@ body{
 }
 
 .botonPrincipal{
-    background: rgb(46, 194, 186);
+    background: #2ec2ba;
     color:white;
     border-radius: 5px;
     border: none;
@@ -14,7 +14,7 @@ body{
     display: inline-block;
     font-size: 20px;
     padding: 8px 8px;
-
+    display: inline-block;
 }
 
 .iconSize{
